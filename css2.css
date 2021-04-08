@@ -1,0 +1,53 @@
+body{
+    overflow: auto;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+header{
+    text-align: center;
+    height: 12%;
+    width: 100%;
+    background-color: wheat;
+}
+.nome{
+    width: 20%;
+    display: inline-flex;
+}
+main{
+    margin-top: 90px;
+    text-align: center;
+}
+footer p{
+        text-align: center;
+        font-family: 'Truculenta', sans-serif;  
+        font-size: large;
+}
+footer{
+    background-color: wheat;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 800px){
+    header{
+        background-color: wheat;
+        height: 90px;
+        width: 100%;
+        margin: 0px;   
+    }
+    footer p{
+        text-align: center;
+        font-family: 'Truculenta', sans-serif;  
+        margin: 5px;
+}
+    .nome{
+        margin-top: 7px;
+        width: 200px;
+        display: inline-flex;
+    }
+    main{
+        font-size: small;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
